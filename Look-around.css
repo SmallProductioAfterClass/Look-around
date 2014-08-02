@@ -1,0 +1,33 @@
+.Look-around {
+	width:125px;
+	height: 125px;
+	background-image: url("a.jpg");
+}
+
+
+/*只有上面部分是必要的css效果，下面的可有可无*/
+
+
+body {
+	background-color: #000;
+
+}
+.Look-around {
+	background-color: #fff;
+	margin: auto ;
+	left:0;
+	right: 0;
+	vertical-align: middle;
+	}
+h3,p,pre {
+	color: #fff;
+}
+
+.example {
+	background-image: url("a.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	width: auto;
+	height: 125px;
+
+}
